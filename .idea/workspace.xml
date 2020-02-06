@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d0da95fc-c297-4e54-949c-09cbf16246df" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XCunc3YhszGpUwlZu0a1bNRqYY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\代码\hgvip" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main2">
+    <configuration name="crawl_movies" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hgvip" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawl_movies.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="m3u8Download" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hgvip" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/FireFox下载/m3u8MovieDownload-master/m3u8MovieDownload-master" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:/FireFox下载/m3u8MovieDownload-master/m3u8MovieDownload-master/m3u8Download.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hgvip" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hgvip" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hgvip" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main2" />
+        <item itemvalue="Python.main3" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.crawl_movies" />
+        <item itemvalue="Python.m3u8Download" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0da95fc-c297-4e54-949c-09cbf16246df" name="Default Changelist" comment="" />
+      <created>1580562565823</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580562565823</updated>
+      <workItem from="1580562567051" duration="6738000" />
+      <workItem from="1580604245812" duration="25182000" />
+      <workItem from="1580713741744" duration="49000" />
+      <workItem from="1580741556913" duration="839000" />
+      <workItem from="1580784588742" duration="17756000" />
+      <workItem from="1580809071855" duration="19560000" />
+      <workItem from="1580866554318" duration="13735000" />
+      <workItem from="1580901051033" duration="3675000" />
+      <workItem from="1580914457718" duration="5118000" />
+      <workItem from="1580958373482" duration="13725000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="206" key="FileChooserDialogImpl" timestamp="1580972920325">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="549" y="206" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1580972920325" />
+    <state width="1493" height="490" key="GridCell.Tab.0.bottom" timestamp="1580973111614">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="490" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1580973111614" />
+    <state width="1493" height="490" key="GridCell.Tab.0.center" timestamp="1580973111614">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="490" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1580973111614" />
+    <state width="1493" height="490" key="GridCell.Tab.0.left" timestamp="1580973111614">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="490" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1580973111614" />
+    <state width="1493" height="490" key="GridCell.Tab.0.right" timestamp="1580973111614">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="490" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1580973111614" />
+    <state width="1493" height="268" key="GridCell.Tab.1.bottom" timestamp="1580968826748">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="268" key="GridCell.Tab.1.bottom/0.30.1536.834@0.30.1536.834" timestamp="1580968826748" />
+    <state width="1493" height="268" key="GridCell.Tab.1.center" timestamp="1580968826748">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="268" key="GridCell.Tab.1.center/0.30.1536.834@0.30.1536.834" timestamp="1580968826748" />
+    <state width="1493" height="268" key="GridCell.Tab.1.left" timestamp="1580968826748">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="268" key="GridCell.Tab.1.left/0.30.1536.834@0.30.1536.834" timestamp="1580968826748" />
+    <state width="1493" height="268" key="GridCell.Tab.1.right" timestamp="1580968826748">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="268" key="GridCell.Tab.1.right/0.30.1536.834@0.30.1536.834" timestamp="1580968826748" />
+    <state x="279" y="93" key="SettingsEditor" timestamp="1580901812369">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="279" y="93" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1580901812369" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hgvip$m3u8Download.coverage" NAME="m3u8Download Coverage Results" MODIFIED="1580657877379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/FireFox下载/m3u8MovieDownload-master/m3u8MovieDownload-master" />
+    <SUITE FILE_PATH="coverage/hgvip$main2.coverage" NAME="main2 Coverage Results" MODIFIED="1580973111607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hgvip$m3u8.coverage" NAME="m3u8 Coverage Results" MODIFIED="1580619286365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/FireFox下载/m3u8-Downloader-master/m3u8-Downloader-master" />
+    <SUITE FILE_PATH="coverage/hgvip$main.coverage" NAME="main Coverage Results" MODIFIED="1580878997256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hgvip$crawl_movies.coverage" NAME="crawl_movies Coverage Results" MODIFIED="1580827999802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hgvip$downloader_lite2.coverage" NAME="downloader_lite2 Coverage Results" MODIFIED="1580619283039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/FireFox下载/m3u8Downloader-master/m3u8Downloader-master" />
+    <SUITE FILE_PATH="coverage/hgvip$main3.coverage" NAME="main3 Coverage Results" MODIFIED="1580968461394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
