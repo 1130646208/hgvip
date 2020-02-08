@@ -22,27 +22,22 @@ class Store(threading.Thread):
         self.store = store
 
     def run(self):
-        try:
-            print('This is store %s\n' % self.store)
-
-            time.sleep(random.randint(1, 4))
-        except Exception as e:
-            print(e)
-        finally:
-            self.queue.get()
-            self.queue.task_done()
+        time.sleep(2)
+        self.queue.get()
+        self.queue.task_done()
+        # print('This is store %s\n' % self.store)
+        print('this is thread:%s' % self.name)
 
 
 def main():
     q = queue.Queue(maxThreads)
-
-    for s in range(15):
-        q.put(s)
-        t = Store(s, q)
-        t.start()
-        print('队列中还有:', q.unfinished_tasks)
-        # if s % 5 == 0:
-        #     q.join()
+    for i in range(15):
+        s = Store(1, q)
+        q.put(i)
+        print(id(s))
+        s.start()
+    print('队列中还有未完成任务:', q.unfinished_tasks)
+    q.join()
     print('over')
 
 
