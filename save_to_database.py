@@ -28,13 +28,13 @@ class Save:
                     # 如果非空就插入数据库
                     if ins and each:
                         result = collection.insert_one(each)
-                        print('[%s] [%s]' % (result.inserted_id, each))
+                        print('Success saved to mongo [%s] [%s]\n' % (result.inserted_id, each))
                     elif each:
                         result = collection.update_one(each, {'$set': each}, True)
-                        print(r'success update:[%s], %s\n' % (result.acknowledged, each))
+                        print(r'Success update:[%s] [%s]' % (result.acknowledged, each))
                     yield each
             else:
-                print('data is not Generator.')
+                print('Data is not Generator.')
         except Exception as e:
             print(e)
         finally:

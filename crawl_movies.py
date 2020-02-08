@@ -5,7 +5,6 @@
 # @Site    : 
 # @File    : crawl_movies.py
 # @Software: PyCharm
-
 import requests
 import json
 from urllib.parse import urlencode
@@ -121,7 +120,6 @@ class Get:
                         'cover': mov['cover'],
                         # 'playCnt': mov['playCnt'],
                         # 'movSize': mov['movSize'],
-
                     }
                 else:
                     yield None

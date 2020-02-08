@@ -11,6 +11,7 @@ from save_to_database import Save
 from threading import Thread
 import queue
 import time
+from config import *
 
 
 class Update(Thread):
@@ -55,14 +56,16 @@ if __name__ == '__main__':
     failed = 0
 
     g = Get()
-    cls_id = input('类别id')
+    cls_id = input('请输入类别id:')
+    print('Getting class total pages...')
     pages = g.get_page_num(cls_id)
-    q = queue.Queue(maxsize=10)  # 队列没有起到传参作用, 只是为了控制线程个数二引入的
+    print('Total [%s] pages' % pages)
+    print('Getting movies...')
+    q = queue.Queue(maxsize=MAX_THREADS)  # 队列没有起到传参作用, 只是为了控制线程个数而引入的
     for page in range(int(pages)):
         q.put(page)
         u = Update(cls_id, page+1, q)
         u.start()
-
     end = time.time()
     print('程序结束, 共耗时:[%s]s' % (end-start))
     # print('插入数据:成功:[%s]条, 失败[%s]条.' % (success, failed))
