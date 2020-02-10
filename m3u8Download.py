@@ -13,6 +13,8 @@ from Crypto.Cipher import AES
 from collections import OrderedDict
 from multiprocessing import Process, cpu_count
 
+from find_in_database import *
+
 headers = {
     "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
 }
@@ -168,11 +170,11 @@ def merge_file(path):
         for s in checkDownloadFolder(path):
             str1 += s + "+"
         str1 = str1[:-1]
-        cmd = f"copy /b {str1} new.tmp"
+        cmd = f"copy /b {str1} Movie.tmp"
         os.system(cmd)
         os.system('del /Q *.ts')
         os.system('del /Q *.mp4')
-        os.rename("new.tmp", "new.mp4")
+        os.rename("Movie.tmp", "Movie.mp4")
         print('合并完成.')
     elif "Dar" in plat_f:
         str1 = ""
@@ -314,9 +316,15 @@ if __name__ == "__main__":
     #     url = url.split("url=")[-1]
     #     print(f"开始下载，m3u8文件地址为：{url}")
     #     begin = 1
-    #
+    download_path = 'F:/柯南剧场/业火的向日葵/m3u8downloader'
+    _id = int(input('请输入要下载的影片ID:'))
+    _solution = input('请输入要下载的影片清晰度(默认720P):')
+    finder = Find('hgvip', 'class_10')
+    if _solution:
+        url = finder.raise_m3u8(_id, _solution)
+    else:
+        url = finder.raise_m3u8(_id)
     begin = 1
-    url = 'https://h5v.891227.com/7YW8U2zDiREIa/adminUpload/1577696964918_dd3d20e4a5d64049a6d7e255ce0390e0.mp4/index.m3u8'
-    while not checkDownloadFolder('F:/柯南剧场/新建文件夹', ".mp4"):
-        main(url, 'F:/柯南剧场/新建文件夹', 1, begin)  # .replace("https", "http")
+    while not checkDownloadFolder(download_path, ".mp4"):
+        main(url, download_path, 1, begin)  # .replace("https", "http")
         begin += 1

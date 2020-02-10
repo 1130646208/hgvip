@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2020/2/5 19:25
 # @Author  : wsx
-# @Site    : 
+# @desc    : 多线程爬取网站数据, 更新到数据库中, 线程数在config.py中
 # @File    : main2.py
 # @Software: PyCharm
 
-# 多线程爬取, 线程数在config.py中
+
 from crawl_movies import Get
 from save_to_database import Save
 from threading import Thread
