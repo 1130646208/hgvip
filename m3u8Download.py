@@ -236,8 +236,9 @@ def theProgressBar(len_file_line, download_path):
 def checkDownloadFolder(download_path, ty=".ts"):
     """ 返回下载目录中的文件list """
     temp = []
+    path = Path(download_path)
     try:
-        temp += [os.path.abspath(p) for p in Path(download_path).glob(f'**/*{ty}')]
+        temp += [os.path.abspath(p) for p in path.glob(f'**/*{ty}')]
     except PermissionError:
         pass
 
@@ -247,7 +248,6 @@ def checkDownloadFolder(download_path, ty=".ts"):
             if n.isdigit():
                 num += n
         return int(num)
-
     return sorted(temp, key=sortNum)
 
 
@@ -317,6 +317,6 @@ if __name__ == "__main__":
     #
     begin = 1
     url = 'https://h5v.891227.com/7YW8U2zDiREIa/adminUpload/1577696964918_dd3d20e4a5d64049a6d7e255ce0390e0.mp4/index.m3u8'
-    while not checkDownloadFolder('C:/Users/WSX/Downloads', ".mp4"):
-        main(url, 'C:/Users/WSX/Downloads', 1, begin)  # .replace("https", "http")
+    while not checkDownloadFolder('F:/柯南剧场/新建文件夹', ".mp4"):
+        main(url, 'F:/柯南剧场/新建文件夹', 1, begin)  # .replace("https", "http")
         begin += 1

@@ -14,9 +14,7 @@ import types
 class Save:
 
     def __init__(self, host=MONGO_CLIENT_HOST, port=MONGO_CLIENT_PORT):
-        self.host = host
-        self.port = port
-        self.client = MongoClient(self.host, self.port)
+        self.client = MongoClient(host, port)
 
     def save_many_to_mongo(self, data, collection_name='classes', ins=True, db_name='hgvip'):
         # ins为真, 则不判断是否重复, 否则判断是否重复

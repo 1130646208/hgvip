@@ -5,6 +5,7 @@
 # @Site    : 
 # @File    : main2.py
 # @Software: PyCharm
+
 # 多线程爬取, 线程数在config.py中
 from crawl_movies import Get
 from save_to_database import Save
@@ -28,7 +29,7 @@ class Update(Thread):
     def update_cate(self):
         cates = self.g.get_cate()
         for each in self.s.save_many_to_mongo(cates, collection_name='classes', ins=False):
-            pass
+            print(each)
 
     def update_class(self):
         success = 0
@@ -71,8 +72,6 @@ if __name__ == '__main__':
     q.join()  # 等待主线程结束, 方便计时
 
     end = time.time()
-    print('程序结束, 共耗时:[%.2f]s' % (end-start))
+    print('*程序结束, 共耗时:[%.2f]s' % (end-start))
     # 统计所有线程成功,失败的数量
-    print('插入数据:成功:[%s]条, 失败[%s]条.' % (sum([x.succeed for x in threads]), sum([x.failed for x in threads])))
-
-
+    print('*共插入数据:成功:[%s]条, 失败[%s]条.' % (sum([x.succeed for x in threads]), sum([x.failed for x in threads])))
