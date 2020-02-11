@@ -9,7 +9,7 @@ import requests
 import json
 from urllib.parse import urlencode
 from requests.exceptions import RequestException
-
+import random
 
 class Get:
     def __init__(self):
@@ -31,8 +31,12 @@ class Get:
             'terminal': '4',
             'release': '200',
         }
+        ip = ['39.106.223.207:80', '112.195.121.250:9999', '124.239.216.14:8060']
+        proxies = {
+            "http": "http://" + random.choice(ip),
+        }
         try:
-            response = requests.get(url, headers=headers, timeout=20)
+            response = requests.get(url, headers=headers, timeout=30, proxies=proxies)
             if response.status_code == 200:
                 print('请求成功,耗时:[%s]秒.' % response.elapsed.seconds)
                 return response.text

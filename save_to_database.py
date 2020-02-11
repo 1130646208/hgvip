@@ -58,7 +58,7 @@ class Update(Thread):
     def __init__(self, cls_id=10, page=1, queue=None):
         Thread.__init__(self)
         self.queue = queue
-        self.cls_id = cls_id
+        self.cls_id = str(cls_id)
         self.page = page
         self.g = Get()
         self.s = Save()
