@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0da95fc-c297-4e54-949c-09cbf16246df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m3u8Download.py" beforeDir="false" afterPath="$PROJECT_DIR$/m3u8Download.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main2.py" beforeDir="false" afterPath="$PROJECT_DIR$/main2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main3.py" beforeDir="false" afterPath="$PROJECT_DIR$/main3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save_to_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/save_to_database.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
@@ -40,8 +42,8 @@
       <recent name="F:\代码\hgvip" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.m3u8Download (1)">
-    <configuration name="crawl_movies" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main3">
+    <configuration name="find_in_database" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hgvip" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -54,7 +56,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawl_movies.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/find_in_database.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main3" />
+        <item itemvalue="Python.main2" />
         <item itemvalue="Python.m3u8Download (1)" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.main2" />
-        <item itemvalue="Python.main3" />
-        <item itemvalue="Python.crawl_movies" />
+        <item itemvalue="Python.find_in_database" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +190,8 @@
       <workItem from="1581150397750" duration="13974000" />
       <workItem from="1581243377912" duration="1421000" />
       <workItem from="1581316314524" duration="15728000" />
-      <workItem from="1581336053796" duration="13372000" />
+      <workItem from="1581336053796" duration="13729000" />
+      <workItem from="1581408446717" duration="9903000" />
     </task>
     <task id="LOCAL-00001" summary="tiny modify">
       <created>1581132410653</created>
@@ -211,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581334493247</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="查找类编写完成,下载器编写完成,基本完工.[已知bug:下载之后文件合并丢掉了最后一块]">
+      <created>1581349828758</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581349828758</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,62 +231,68 @@
     <MESSAGE value="tiny modify" />
     <MESSAGE value="可以统计成功插入数量和失败插入数量啦." />
     <MESSAGE value="编写查找类." />
-    <option name="LAST_COMMIT_MESSAGE" value="编写查找类." />
+    <MESSAGE value="查找类编写完成,下载器编写完成,基本完工.[已知bug:下载之后文件合并丢掉了最后一块]" />
+    <option name="LAST_COMMIT_MESSAGE" value="查找类编写完成,下载器编写完成,基本完工.[已知bug:下载之后文件合并丢掉了最后一块]" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="516" y="60" key="CommitChangelistDialog2" timestamp="1581334492771">
+    <state x="516" y="60" key="CommitChangelistDialog2" timestamp="1581349828292">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="516" y="60" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1581334492771" />
+    <state x="516" y="60" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1581349828292" />
     <state x="549" y="206" key="FileChooserDialogImpl" timestamp="1580972920325">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="549" y="206" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1580972920325" />
-    <state width="1493" height="268" key="GridCell.Tab.0.bottom" timestamp="1581349187882">
+    <state width="1493" height="198" key="GridCell.Tab.0.bottom" timestamp="1581420635830">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="268" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1581349187882" />
-    <state width="1493" height="268" key="GridCell.Tab.0.center" timestamp="1581349187882">
+    <state width="1493" height="198" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1581420635830" />
+    <state width="1493" height="198" key="GridCell.Tab.0.center" timestamp="1581420635829">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="268" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1581349187882" />
-    <state width="1493" height="268" key="GridCell.Tab.0.left" timestamp="1581349187882">
+    <state width="1493" height="198" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1581420635829" />
+    <state width="1493" height="198" key="GridCell.Tab.0.left" timestamp="1581420635829">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="268" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1581349187882" />
-    <state width="1493" height="268" key="GridCell.Tab.0.right" timestamp="1581349187882">
+    <state width="1493" height="198" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1581420635829" />
+    <state width="1493" height="198" key="GridCell.Tab.0.right" timestamp="1581420635830">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="268" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1581349187882" />
-    <state width="1493" height="268" key="GridCell.Tab.1.bottom" timestamp="1581349187567">
+    <state width="1493" height="198" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1581420635830" />
+    <state width="1493" height="268" key="GridCell.Tab.1.bottom" timestamp="1581350103108">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="268" key="GridCell.Tab.1.bottom/0.30.1536.834@0.30.1536.834" timestamp="1581349187567" />
-    <state width="1493" height="268" key="GridCell.Tab.1.center" timestamp="1581349187567">
+    <state width="1493" height="268" key="GridCell.Tab.1.bottom/0.30.1536.834@0.30.1536.834" timestamp="1581350103108" />
+    <state width="1493" height="268" key="GridCell.Tab.1.center" timestamp="1581350103108">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="268" key="GridCell.Tab.1.center/0.30.1536.834@0.30.1536.834" timestamp="1581349187567" />
-    <state width="1493" height="268" key="GridCell.Tab.1.left" timestamp="1581349187567">
+    <state width="1493" height="268" key="GridCell.Tab.1.center/0.30.1536.834@0.30.1536.834" timestamp="1581350103108" />
+    <state width="1493" height="268" key="GridCell.Tab.1.left" timestamp="1581350103108">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="268" key="GridCell.Tab.1.left/0.30.1536.834@0.30.1536.834" timestamp="1581349187567" />
-    <state width="1493" height="268" key="GridCell.Tab.1.right" timestamp="1581349187567">
+    <state width="1493" height="268" key="GridCell.Tab.1.left/0.30.1536.834@0.30.1536.834" timestamp="1581350103108" />
+    <state width="1493" height="268" key="GridCell.Tab.1.right" timestamp="1581350103108">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="268" key="GridCell.Tab.1.right/0.30.1536.834@0.30.1536.834" timestamp="1581349187567" />
+    <state width="1493" height="268" key="GridCell.Tab.1.right/0.30.1536.834@0.30.1536.834" timestamp="1581350103108" />
     <state x="279" y="93" key="SettingsEditor" timestamp="1581336921802">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="279" y="93" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1581336921802" />
+    <state x="580" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581349862229">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="580" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1581349862229" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/hgvip$m3u8Download.coverage" NAME="m3u8Download Coverage Results" MODIFIED="1580657877379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/FireFox下载/m3u8MovieDownload-master/m3u8MovieDownload-master" />
-    <SUITE FILE_PATH="coverage/hgvip$main2.coverage" NAME="main2 Coverage Results" MODIFIED="1581329581818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hgvip$main2.coverage" NAME="main2 Coverage Results" MODIFIED="1581417396855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hgvip$m3u8.coverage" NAME="m3u8 Coverage Results" MODIFIED="1580619286365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/FireFox下载/m3u8-Downloader-master/m3u8-Downloader-master" />
-    <SUITE FILE_PATH="coverage/hgvip$main.coverage" NAME="main Coverage Results" MODIFIED="1581348933226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hgvip$main.coverage" NAME="main Coverage Results" MODIFIED="1581349878121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hgvip$crawl_movies.coverage" NAME="crawl_movies Coverage Results" MODIFIED="1580827999802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hgvip$downloader_lite2.coverage" NAME="downloader_lite2 Coverage Results" MODIFIED="1580619283039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/FireFox下载/m3u8Downloader-master/m3u8Downloader-master" />
-    <SUITE FILE_PATH="coverage/hgvip$main3.coverage" NAME="main3 Coverage Results" MODIFIED="1581171255702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/hgvip$m3u8Download__1_.coverage" NAME="m3u8Download (1) Coverage Results" MODIFIED="1581349187426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hgvip$find_in_database.coverage" NAME="find_in_database Coverage Results" MODIFIED="1581349867412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hgvip$m3u8Download__1_.coverage" NAME="m3u8Download (1) Coverage Results" MODIFIED="1581349952400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hgvip$main3.coverage" NAME="main3 Coverage Results" MODIFIED="1581420510298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -8,37 +8,32 @@
 # 多线程测试
 
 # -*- coding: utf-8 -*-
-import threading
-import queue
-import time
-import random
-maxThreads = 5
-
-
-class Store(threading.Thread):
-    def __init__(self, store, queue):
-        threading.Thread.__init__(self)
-        self.queue = queue
-        self.store = store
-
-    def run(self):
-        time.sleep(2)
-        self.queue.get()
-        self.queue.task_done()
-        # print('This is store %s\n' % self.store)
-        print('this is thread:%s' % self.name)
+from save_to_database import *
+from crawl_movies import *
+import re
+from main2 import get_start
 
 
 def main():
-    q = queue.Queue(maxThreads)
-    for i in range(15):
-        s = Store(1, q)
-        q.put(i)
-        print(id(s))
-        s.start()
-    print('队列中还有未完成任务:', q.unfinished_tasks)
-    q.join()
-    print('over')
+    isdigit = re.compile(r'\d+')
+    s = Save()
+    g = Get()
+    exist_ids = set()
+    # 检查数据库中已经存在的类别
+    print('<已完成类别>')
+    for each in s.check_classes():
+        id = each.split('_')[-1]
+        if re.match(isdigit, id):
+            exist_ids.add(id)
+            print(id, end=' ')
+    # 请求服务器所有的类别, 并检查哪些类别还没有压榨
+    print('\n<未完成类别>')
+    for each in g.get_cate():
+        id = each['clsid']
+        if not str(id) in exist_ids:
+            page = g.get_page_num(id)
+            print('[id:%s(%s) <%s 页>]' % (id, each['类别'], page), end=' ')
+            get_start(id)
 
 
 if __name__ == '__main__':
