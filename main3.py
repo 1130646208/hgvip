@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2020/2/5 22:54
 # @Author  : wsx
-# @Site    : 
+# @Site    : 更新所有类别
 # @File    : main3.py
 # @Software: PyCharm
 # 多线程测试
@@ -12,6 +12,7 @@ from save_to_database import *
 from crawl_movies import *
 import re
 from main2 import get_start
+import time
 
 
 def main():
@@ -33,7 +34,8 @@ def main():
         if not str(id) in exist_ids:
             page = g.get_page_num(id)
             print('[id:%s(%s) <%s 页>]' % (id, each['类别'], page), end=' ')
-            get_start(id)
+            # time.sleep(3)
+            # get_start(id)
 
 
 if __name__ == '__main__':

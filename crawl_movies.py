@@ -33,7 +33,7 @@ class Get:
         }
         ip = ['39.106.223.207:80', '112.195.121.250:9999', '124.239.216.14:8060']
         proxies = {
-            "http": "http://" + random.choice(ip),
+            "http": "http://" + ip[0],
         }
         try:
             response = requests.get(url, headers=headers, timeout=30, proxies=proxies)

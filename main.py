@@ -2,15 +2,15 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2020/2/4 15:28
 # @Author  : wsx
-# @desc    : 在数据库中搜索
+# @desc    : 交互式, 先显示数据库信息, 再接受用户选择, 根据用户选择的影片ID返回链接
 # @File    : main.py
 # @Software: PyCharm
 
 from find_in_database import *
 
 
-def start_enjoy(key, inwhat, sortby):
-    finder = Find('hgvip', 'class_10')
+def start_enjoy(key, clsid, inwhat, sortby):
+    finder = Find('hgvip', 'class_'+clsid)
     for each in finder.find_in_what(key, inwhat=inwhat, sortby=sortby):
         try:
             print(' [<%s>电影名称]: %s\n [描述]: %s\n [👍: %s, 评分: %s, 时长: %s]\n [大小(720P): %s, (480P): %s, (360P): %s]\n [标签]: %s'
@@ -26,18 +26,31 @@ def start_enjoy(key, inwhat, sortby):
     print('#搜索完成, 共找到数据[%s]条' % finder.result_num)
 
 
-def main2():
-    finder = Find('hgvip', 'class_10')
-    for each in finder.find_tags('', sortby=''):
-        print(each)
-
-
 if __name__ == '__main__':
-    """
-    搜索域和排序方式可以选以下项目:
-    名称, 描述, 喜欢, 评分, 时长, 大小
-    """
-    word = input('请输入搜索关键词:')
-    """     关键词↓   搜索域↓    ↓排序方式(由大到小)"""
-    start_enjoy(word, '描述', '评分')
+    finder0 = Find('hgvip', 'classes')
+    finder0.look_classes()
+    while True:
+        clsid = input('要查询哪个类别ID?\nID:')
+        finder1 = Find('hgvip', 'class_'+clsid)
+        """
+        搜索域和排序方式可以选以下项目:
+        名称, 描述, 喜欢, 评分, 时长, 大小
+        """
+        key = input('请输入搜索关键词:')
+        """     关键词↓   搜索域↓    ↓排序方式(由大到小)"""
+        start_enjoy(key, clsid,'描述', '评分')
+        _id = int(input('请输入要下载的影片ID:'))
+        _solution = input('请输入要下载的影片清晰度(默认480P):')
+        if _solution:
+            url = finder1.raise_m3u8(_id, _solution)
+        else:
+            url = finder1.raise_m3u8(_id)
+        if _id and url:
+            print(url)
+        else:
+            print('找不到影片...')
+        a = input('\n****************\n*按任意键继续...*\n****************\n')
+        if a:
+            print('正在退出...')
+            break
 

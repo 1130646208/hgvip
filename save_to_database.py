@@ -18,6 +18,7 @@ class Save:
     def __init__(self, host=MONGO_CLIENT_HOST, port=MONGO_CLIENT_PORT):
         self.client = MongoClient(host, port)
 
+    # 返回数据库中类别名称
     def check_classes(self):
         db = self.client['hgvip']
         return db.collection_names()

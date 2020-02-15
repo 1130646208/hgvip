@@ -13,7 +13,6 @@ from Crypto.Cipher import AES
 from collections import OrderedDict
 from multiprocessing import Process, cpu_count
 
-from find_in_database import *
 
 headers = {
     "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
@@ -292,6 +291,14 @@ def main(url, download_path, merge, begin):
         raise e
 
 
+def interface(url):
+    download_path = 'F:/柯南剧场/业火的向日葵/m3u8downloader'
+    begin = 1
+    while not checkDownloadFolder(download_path, ".mp4"):
+        main(url, download_path, 1, begin)  # .replace("https", "http")
+        begin += 1
+
+
 if __name__ == "__main__":
     # merge = ""
     # document = ""
@@ -316,15 +323,4 @@ if __name__ == "__main__":
     #     url = url.split("url=")[-1]
     #     print(f"开始下载，m3u8文件地址为：{url}")
     #     begin = 1
-    download_path = 'F:/柯南剧场/业火的向日葵/m3u8downloader'
-    _id = int(input('请输入要下载的影片ID:'))
-    _solution = input('请输入要下载的影片清晰度(默认720P):')
-    finder = Find('hgvip', 'class_10')
-    if _solution:
-        url = finder.raise_m3u8(_id, _solution)
-    else:
-        url = finder.raise_m3u8(_id)
-    begin = 1
-    while not checkDownloadFolder(download_path, ".mp4"):
-        main(url, download_path, 1, begin)  # .replace("https", "http")
-        begin += 1
+    pass

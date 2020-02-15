@@ -53,5 +53,17 @@ class Find:
         else:
             return None
 
+    # 返回数据库类别id和类别名称
+    def look_classes(self):
+        print('类别信息:')
+        print('---------------------------------------------------')
+        classes = self.db['classes']
+        for each in classes.find({}, {'_id': 0}):
+            print(each)
+        print('---------------------------------------------------')
+
     def raise_m3u8(self, mov_id, mov_solution='480P'):
-        return self.collection.find_one({'_id': mov_id})['address'][mov_solution]
+        if self.collection.find_one({'_id': mov_id}):
+            return self.collection.find_one({'_id': mov_id})['address'][mov_solution]
+        else:
+            return None

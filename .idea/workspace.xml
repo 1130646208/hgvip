@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0da95fc-c297-4e54-949c-09cbf16246df" name="Default Changelist" comment="">
+    <list default="true" id="d0da95fc-c297-4e54-949c-09cbf16246df" name="Default Changelist" comment="添加代理">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawl_movies.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawl_movies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_in_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/find_in_database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m3u8Download.py" beforeDir="false" afterPath="$PROJECT_DIR$/m3u8Download.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main3.py" beforeDir="false" afterPath="$PROJECT_DIR$/main3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save_to_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/save_to_database.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled/top100/re_top100.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
@@ -46,7 +52,7 @@
       <recent name="F:\代码\hgvip" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main3">
+  <component name="RunManager" selected="Python.main">
     <configuration name="m3u8Download (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hgvip" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.main3" />
         <item itemvalue="Python.proxy_test" />
         <item itemvalue="Python.main2" />
         <item itemvalue="Python.m3u8Download (1)" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +202,11 @@
       <workItem from="1581316314524" duration="15728000" />
       <workItem from="1581336053796" duration="13729000" />
       <workItem from="1581408446717" duration="15259000" />
-      <workItem from="1581428458657" duration="4041000" />
+      <workItem from="1581428458657" duration="9877000" />
+      <workItem from="1581482362798" duration="996000" />
+      <workItem from="1581514648983" duration="8000" />
+      <workItem from="1581692419978" duration="5072000" />
+      <workItem from="1581756379835" duration="2931000" />
     </task>
     <task id="LOCAL-00001" summary="tiny modify">
       <created>1581132410653</created>
@@ -264,22 +274,26 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="549" y="206" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1581428497754" />
-    <state width="1493" height="271" key="GridCell.Tab.0.bottom" timestamp="1581432211784">
-      <screen x="0" y="30" width="1536" height="834" />
+    <state width="1493" height="149" key="GridCell.Tab.0.bottom" timestamp="1581758866944">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1581432211784" />
-    <state width="1493" height="271" key="GridCell.Tab.0.center" timestamp="1581432211784">
-      <screen x="0" y="30" width="1536" height="834" />
+    <state width="1493" height="149" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581758866944" />
+    <state width="1493" height="303" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1581475622854" />
+    <state width="1493" height="149" key="GridCell.Tab.0.center" timestamp="1581758866944">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1581432211784" />
-    <state width="1493" height="271" key="GridCell.Tab.0.left" timestamp="1581432211784">
-      <screen x="0" y="30" width="1536" height="834" />
+    <state width="1493" height="149" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581758866944" />
+    <state width="1493" height="303" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1581475622854" />
+    <state width="1493" height="149" key="GridCell.Tab.0.left" timestamp="1581758866944">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1581432211784" />
-    <state width="1493" height="271" key="GridCell.Tab.0.right" timestamp="1581432211784">
-      <screen x="0" y="30" width="1536" height="834" />
+    <state width="1493" height="149" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581758866944" />
+    <state width="1493" height="303" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1581475622854" />
+    <state width="1493" height="149" key="GridCell.Tab.0.right" timestamp="1581758866944">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1581432211784" />
+    <state width="1493" height="149" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581758866944" />
+    <state width="1493" height="303" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1581475622854" />
     <state width="1493" height="268" key="GridCell.Tab.1.bottom" timestamp="1581350103108">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -306,15 +320,15 @@
     <state x="580" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1581432448321" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/hgvip$proxy_test.coverage" NAME="proxy_test Coverage Results" MODIFIED="1581431901156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hgvip$proxy_test.coverage" NAME="proxy_test Coverage Results" MODIFIED="1581468770340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hgvip$m3u8Download.coverage" NAME="m3u8Download Coverage Results" MODIFIED="1580657877379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/FireFox下载/m3u8MovieDownload-master/m3u8MovieDownload-master" />
     <SUITE FILE_PATH="coverage/hgvip$main2.coverage" NAME="main2 Coverage Results" MODIFIED="1581417396855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hgvip$m3u8.coverage" NAME="m3u8 Coverage Results" MODIFIED="1580619286365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/FireFox下载/m3u8-Downloader-master/m3u8-Downloader-master" />
-    <SUITE FILE_PATH="coverage/hgvip$main.coverage" NAME="main Coverage Results" MODIFIED="1581349878121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hgvip$main.coverage" NAME="main Coverage Results" MODIFIED="1581758832314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hgvip$crawl_movies.coverage" NAME="crawl_movies Coverage Results" MODIFIED="1580827999802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hgvip$downloader_lite2.coverage" NAME="downloader_lite2 Coverage Results" MODIFIED="1580619283039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/FireFox下载/m3u8Downloader-master/m3u8Downloader-master" />
     <SUITE FILE_PATH="coverage/hgvip$find_in_database.coverage" NAME="find_in_database Coverage Results" MODIFIED="1581349867412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hgvip$m3u8Download__1_.coverage" NAME="m3u8Download (1) Coverage Results" MODIFIED="1581349952400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/hgvip$main3.coverage" NAME="main3 Coverage Results" MODIFIED="1581432211778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hgvip$main3.coverage" NAME="main3 Coverage Results" MODIFIED="1581475525741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
