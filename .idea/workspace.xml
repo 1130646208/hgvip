@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0da95fc-c297-4e54-949c-09cbf16246df" name="Default Changelist" comment="添加代理">
+    <list default="true" id="d0da95fc-c297-4e54-949c-09cbf16246df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawl_movies.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawl_movies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/find_in_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/find_in_database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m3u8Download.py" beforeDir="false" afterPath="$PROJECT_DIR$/m3u8Download.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main3.py" beforeDir="false" afterPath="$PROJECT_DIR$/main3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_to_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/save_to_database.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chimp" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
@@ -206,7 +201,13 @@
       <workItem from="1581482362798" duration="996000" />
       <workItem from="1581514648983" duration="8000" />
       <workItem from="1581692419978" duration="5072000" />
-      <workItem from="1581756379835" duration="2931000" />
+      <workItem from="1581756379835" duration="7762000" />
+      <workItem from="1581826478106" duration="3684000" />
+      <workItem from="1581830179898" duration="626000" />
+      <workItem from="1581830863005" duration="198000" />
+      <workItem from="1581831591858" duration="195000" />
+      <workItem from="1582555911634" duration="142000" />
+      <workItem from="1582597555401" duration="710000" />
     </task>
     <task id="LOCAL-00001" summary="tiny modify">
       <created>1581132410653</created>
@@ -250,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581432442320</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="小修改">
+      <created>1581761700407</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581761700407</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,36 +271,39 @@
     <MESSAGE value="查找类编写完成,下载器编写完成,基本完工.[已知bug:下载之后文件合并丢掉了最后一块]" />
     <MESSAGE value="调整结构" />
     <MESSAGE value="添加代理" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加代理" />
+    <MESSAGE value="小修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="小修改" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="516" y="60" key="CommitChangelistDialog2" timestamp="1581432512736">
-      <screen x="0" y="30" width="1536" height="834" />
+    <state x="516" y="30" key="CommitChangelistDialog2" timestamp="1581761699862">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state x="516" y="30" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581761699862" />
     <state x="516" y="60" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1581432512736" />
-    <state x="549" y="206" key="FileChooserDialogImpl" timestamp="1581428497754">
-      <screen x="0" y="30" width="1536" height="834" />
+    <state x="549" y="176" key="FileChooserDialogImpl" timestamp="1582598483593">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state x="549" y="176" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1582598483593" />
     <state x="549" y="206" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1581428497754" />
-    <state width="1493" height="149" key="GridCell.Tab.0.bottom" timestamp="1581758866944">
+    <state width="1493" height="149" key="GridCell.Tab.0.bottom" timestamp="1581768377537">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="149" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581758866944" />
+    <state width="1493" height="149" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581768377537" />
     <state width="1493" height="303" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1581475622854" />
-    <state width="1493" height="149" key="GridCell.Tab.0.center" timestamp="1581758866944">
+    <state width="1493" height="149" key="GridCell.Tab.0.center" timestamp="1581768377537">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="149" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581758866944" />
+    <state width="1493" height="149" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581768377537" />
     <state width="1493" height="303" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1581475622854" />
-    <state width="1493" height="149" key="GridCell.Tab.0.left" timestamp="1581758866944">
+    <state width="1493" height="149" key="GridCell.Tab.0.left" timestamp="1581768377537">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="149" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581758866944" />
+    <state width="1493" height="149" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581768377537" />
     <state width="1493" height="303" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1581475622854" />
-    <state width="1493" height="149" key="GridCell.Tab.0.right" timestamp="1581758866944">
+    <state width="1493" height="149" key="GridCell.Tab.0.right" timestamp="1581768377537">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="149" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581758866944" />
+    <state width="1493" height="149" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581768377537" />
     <state width="1493" height="303" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1581475622854" />
     <state width="1493" height="268" key="GridCell.Tab.1.bottom" timestamp="1581350103108">
       <screen x="0" y="30" width="1536" height="834" />

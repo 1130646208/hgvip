@@ -13,14 +13,14 @@ def start_enjoy(key, clsid, inwhat, sortby):
     finder = Find('hgvip', 'class_'+clsid)
     for each in finder.find_in_what(key, inwhat=inwhat, sortby=sortby):
         try:
-            print(' [<%s>电影名称]: %s\n [描述]: %s\n [👍: %s, 评分: %s, 时长: %s]\n [大小(720P): %s, (480P): %s, (360P): %s]\n [标签]: %s'
+            print(' [<%s>电影名称]: %s\n [描述]: %s\n [喜欢: %s, 评分: %s, 时长: %s]\n [大小(720P): %s, (480P): %s, (360P): %s]\n [标签]: %s'
                   % (each['_id'], each['movName'], each['movDesc'], each['loveCnt'], each['movScore'], each['mins'], each['movSize']['720P'], each['movSize']['480P'], each['movSize']['360P'],\
                      each['tags']))
             print('---------------------------------------------------------------------------------------------------')
         except KeyError as e:
             if each['movSize'].keys():
                 size_key = list(each['movSize'].keys())[0]
-            print('*[<%s>电影名称]: %s\n [描述]: %s\n [👍: %s, 评分: %s, 时长: %s]\n [大小(%s): %s]\n [标签]: %s'
+            print('*[<%s>电影名称]: %s\n [描述]: %s\n [喜欢: %s, 评分: %s, 时长: %s]\n [大小(%s): %s]\n [标签]: %s'
                   % (each['_id'], each['movName'], each['movDesc'], each['loveCnt'], each['movScore'], each['mins'], size_key, each['movSize'][size_key], each['tags']))
             print('---------------------------------------------------------------------------------------------------')
     print('#搜索完成, 共找到数据[%s]条' % finder.result_num)
@@ -38,7 +38,7 @@ if __name__ == '__main__':
         """
         key = input('请输入搜索关键词:')
         """     关键词↓   搜索域↓    ↓排序方式(由大到小)"""
-        start_enjoy(key, clsid,'描述', '评分')
+        start_enjoy(key, clsid, '描述', '评分')
         _id = int(input('请输入要下载的影片ID:'))
         _solution = input('请输入要下载的影片清晰度(默认480P):')
         if _solution:
